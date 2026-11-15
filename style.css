@@ -1,0 +1,174 @@
+/* geral */
+body {
+    margin: 0;
+    background-color: #efe3cf;
+    color: #3b2415;
+    font-family: Georgia, serif;
+}
+
+/* cabeçalho */
+.topo {
+    background-color: #4a2b1a;
+    color: #f5ead8;
+    padding: 20px 10px;
+    border-bottom: 5px solid #b5651d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/logo.jpg");
+    background-size: cover;
+    border: 3px solid #f5ead8;
+    border-radius: 10px;
+    margin: 10px 20px;
+}
+
+.texto-topo {
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.nome-site {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px #1f110a;
+}
+
+.slogan {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+/* blocos da página */
+.bloco {
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.faixa {
+    background-color: #e0cba9;
+    border-top: 2px solid #b5651d;
+    border-bottom: 2px solid #b5651d;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a2b1a;
+    margin: 0 0 15px 0;
+}
+
+.texto {
+    font-size: 18px;
+    margin: 0;
+    padding: 0 15px;
+}
+
+/* cards */
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 280px;
+    background-color: #fbf5ea;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 12px;
+    box-shadow: 3px 3px 6px #a8957c;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 7px 7px 12px #8c7556;
+}
+
+.foto {
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.foto-sanduiche {
+    width: 280px;
+    height: 280px;
+    background-image: url("images/sanduiche.jpg");
+}
+
+.foto-pudim {
+    width: 280px;
+    height: 280px;
+    background-image: url("images/pudim.jpg");
+}
+
+.foto-bolo {
+    width: 280px;
+    height: 187px;
+    background-image: url("images/bolo-chocolate.jpg");
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0 5px 0;
+}
+
+.descricao {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* festival da banana */
+.cartaz {
+    width: 320px;
+    height: 376px;
+    background-image: url("images/cartaz-banana.jpg");
+    background-size: cover;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    margin: 12px;
+    box-shadow: 3px 3px 6px #a8957c;
+}
+
+.caixa {
+    width: 280px;
+    background-color: #fbf5ea;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 12px;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8a4a12;
+    margin: 10px 0;
+}
+
+/* rodapé */
+.rodape {
+    background-color: #4a2b1a;
+    color: #f5ead8;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 16px;
+}
+
+.rodape p {
+    margin: 6px 0;
+}
+
+.creditos {
+    font-size: 13px;
+    opacity: 0.8;
+}
