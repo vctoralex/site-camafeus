@@ -1,0 +1,188 @@
+/* geral */
+body {
+    margin: 0;
+    background-color: #efe3cf;
+    color: #3b2415;
+    font-family: Georgia, serif;
+}
+
+/* cabeçalho */
+.topo {
+    background-color: #4a2b1a;
+    color: #f5ead8;
+    padding: 25px 10px;
+    border-bottom: 6px solid #b5651d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    background-image: url("images/logo.jpg");
+    background-size: cover;
+    border: 3px solid #f5ead8;
+    border-radius: 10px;
+    margin: 10px 25px;
+    box-shadow: 4px 4px 8px #1f110a;
+}
+
+.texto-topo {
+    text-align: center;
+    margin: 10px 25px;
+}
+
+.nome-site {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px #1f110a;
+}
+
+.slogan {
+    font-size: 19px;
+    margin: 12px 0 0 0;
+    color: #e6c9a0;
+}
+
+/* blocos da página */
+.bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.sobre {
+    background-color: #f7eedd;
+}
+
+.faixa {
+    background-color: #e0cba9;
+    border-top: 2px solid #b5651d;
+    border-bottom: 2px solid #b5651d;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4a2b1a;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #b5651d;
+}
+
+.texto {
+    font-size: 18px;
+    margin: 6px 0;
+}
+
+/* cards */
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    width: 280px;
+    background-color: #fbf5ea;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 12px;
+    box-shadow: 3px 3px 6px #a8957c;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 14px #8c7556;
+}
+
+.foto {
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.foto-sanduiche {
+    width: 280px;
+    height: 280px;
+    background-image: url("images/sanduiche.jpg");
+}
+
+.foto-pudim {
+    width: 280px;
+    height: 280px;
+    background-image: url("images/pudim.jpg");
+}
+
+.foto-bolo {
+    width: 280px;
+    height: 187px;
+    background-image: url("images/bolo-chocolate.jpg");
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 14px 0 6px 0;
+}
+
+.descricao {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+/* festival da banana */
+.cartaz {
+    width: 320px;
+    height: 376px;
+    background-image: url("images/cartaz-banana.jpg");
+    background-size: cover;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    margin: 12px;
+    box-shadow: 3px 3px 6px #a8957c;
+    transition: opacity 0.3s;
+}
+
+.cartaz:hover {
+    opacity: 0.85;
+}
+
+.caixa {
+    width: 280px;
+    background-color: #fbf5ea;
+    border: 2px solid #b5651d;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 12px;
+}
+
+.item {
+    border-top: 1px dashed #b5651d;
+    padding: 10px 0;
+}
+
+.item-nome {
+    font-size: 17px;
+    margin: 0;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #8a4a12;
+    margin: 6px 0 0 0;
+}
+
+/* rodapé */
+.rodape {
+    background-color: #4a2b1a;
+    height: 30px;
+    border-top: 6px solid #b5651d;
+}
